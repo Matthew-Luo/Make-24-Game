@@ -1,0 +1,51 @@
+h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.numbers{
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    margin: 0;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    text-align: center;
+    background-color: #34568B;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.form{
+    padding-top: 50px;
+}
+
+.input{
+    font-size: 25px;
+    border: solid 4px black;
+    text-align: center;
+    padding: 5px;
+}
+
+.input::placeholder{
+    color: lightgrey;
+    font-family: cursive;
+}
+
+#submit{
+    cursor: pointer;
+    padding: 5px;
+    width: 1in;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0, 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#submit:hover{
+    filter: brightness(0.8);
+}
